@@ -1,0 +1,60 @@
+.shadow{
+    box-shadow: 1px 1px 6px .2px black;
+
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-color{
+    background-image: linear-gradient(to bottom right ,rgb(255, 255, 255),rgb(0, 86, 76));
+}
+.raunded{
+    border-radius: 8px;
+}
+.m1{
+    margin: 5px;
+}
+ .p1{
+    padding: 10px;
+ }
+
+
+  
+
+
+  /* Style the scrollbar */
+::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgb(0, 86, 76)); /* Change color on hover */
+  }
+  
+  /* Handle on scrollbar drag */
+  ::-webkit-scrollbar-thumb:active {
+    background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgb(0, 86, 76)); /* Change color on drag */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-image: linear-gradient(to top ,rgb(255, 255, 255),rgb(0, 86, 76)); /* Set the background color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to top,rgb(255, 255, 255),rgb(0, 86, 76)); /* Set the color of the scrollbar handle */
+  }
+  

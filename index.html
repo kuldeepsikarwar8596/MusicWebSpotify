@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicWebSpotify</title>
+    <link rel="icon" href="logo.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <div class="left m1">
+        <span class="close">+</span>
+        <div class="bg-color m1 raunded p1 home shadow">
+          <div class="">
+            <div class="logo"><img src="logo.svg" alt="logo" /></div>
+            <ul>
+              <li class="flex">
+                <img class="" src="home.svg" alt="home" />Home
+              </li>
+              <li class="flex">
+                <img class="" src="search.svg" alt="search" />Search
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="m1 library bg-color raunded p1 shadow">
+          <div class="hadding flex">
+            <div class="flex m1">
+              <div class="playlist">
+                <img src="playlist.svg" alt="playlist" />
+              </div>
+              <h3>Your Library</h3>
+            </div>
+            <div class="plus">+</div>
+          </div>
+          <div class="songList">
+            <ul>
+              <!-- <li><img class="" src="music.svg" alt="">
+              <div class="info">
+                <div>Song Name</div>
+                <div>Song Artist</div>
+              </div>
+              <div class="playnow">
+                <span>Play Now</span>
+                <img class="" src="play.svg" alt="">
+              </div>
+              
+              </li>  -->
+            </ul>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/privacy/"
+                ><span>Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/cookies-policy/">
+                <span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="m1 right">
+        <div class="header raunded bg-color shadow">
+          <div class="nav flex m1">
+            <div class="menu"><img src="menu.svg" alt="" /></div>
+            <div><img src="previous.svg" alt="" /></div>
+            <div><img src="next.svg" alt="" /></div>
+            <input type="search" placeholder="What do you want to listen to?" />
+          </div>
+          <div class="buttons">
+            <button class="signup">Signup</button>
+            <button class="login shadow">Login</button>
+          </div>
+        </div>
+
+        <div class="spotify-playlist">
+          <h1>Spotify Playlist</h1>
+          <div class="cardContainer m2">
+            <div class="card bg-color shadow">
+              <div class="playbtn"><img src="play.png" alt="play" /></div>
+              <img src="images.png" alt="song image" />
+              <h3>Hot Hits punjabi</h3>
+              <p>
+                Catch the hottest Punjabi tracks with Sidhu Moose Wala on the
+                cover for his track "Watch out"
+              </p>
+            </div>
+            <div class="card bg-color shadow">
+              <div class="playbtn"><img src="play.png" alt="play" /></div>
+              <img src="images.png" alt="song image" />
+              <h3>Hot Hits punjabi</h3>
+              <p>
+                Catch the hottest Punjabi tracks with Sidhu Moose Wala on the
+                cover for his track "Watch out"
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="playbar shadow raunded bg-color">
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="currinfo">
+            <div class="songinfo"></div>
+            <div class="songbtn">
+              <img id="previous" src="previous.svg" alt="" />
+              <img id="play" src="pause.svg" alt="" />
+              <img id="next" src="next.svg" alt="" />
+            </div>
+            <div class="songtime"></div>
+            <div class="volume">
+              <img src="volume.svg" alt="" />
+              <div class="range"><input class="invert" type="range" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
